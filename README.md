@@ -111,7 +111,7 @@ Project Folder
 ### Prediction - Trained model
 ![](https://github.com/liewwy19/Advanced-Deep-Learning-with-Computer-Vision-to-Spot-Nuclei/blob/main/assets/prediction-2-trained.png?raw=True)
 ## Analysis
-The model able to achieve over 90% accuracy. Matter a fact, for certain input images, the predicted masks from the model are even bettert than the true mask. (Refer to the Results section below.) Specifically in "Prediction 2", area near the lower right section of the predicted mask.
+The model able to achieve over 90% accuracy. Matter a fact, for certain input images, the predicted masks from the model are even better than the true mask. (Refer to the Results section below.) Specifically in "Prediction 2", area near the lower right section of the predicted mask.
 
 ![](https://github.com/liewwy19/Advanced-Deep-Learning-with-Computer-Vision-to-Spot-Nuclei/blob/main/chart_model_evaluation.png?raw=True)
 ## The Results
