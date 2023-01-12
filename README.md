@@ -56,7 +56,7 @@ Project Folder
   |             |--- test 
   |             |      |
   |             |      |--- inputs
-  |             |      |--- maska   
+  |             |      |--- masks   
   |             |
   |             |--- train     
   |                    |
