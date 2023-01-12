@@ -185,14 +185,13 @@ for images, masks in train_batches.take(2):
     display([sample_image, sample_mask])
 
 # %%
-#   8. Model development
+#   8. Model Development
 #   8.1 use a pre-trained model as the feature extrator
 INPUT_SHAPE = IMG_SIZE + (3,)
 base_model = tf.keras.applications.MobileNetV2(input_shape=INPUT_SHAPE,include_top=False)
 tf.keras.utils.plot_model(base_model,to_file="base_model.png")
 
 #   8.2 list those activation layers as the outputs from the feature extractor 
-
 layer_name = [
     'block_1_expand_relu',          # 64x64
     'block_3_expand_relu',          # 32x32
@@ -215,7 +214,6 @@ up_stack = [
     pix2pix.upsample(64,3),  # 32x32 --> 64x64
 ]
 
-# %%
 #   8.5 construct the entire U-net using functional API
 def unet(output_channels:int):
     inputs = tf.keras.layers.Input(shape=INPUT_SHAPE)
@@ -242,7 +240,7 @@ def unet(output_channels:int):
 OUTPUT_CHANNELS = 3
 model = unet(OUTPUT_CHANNELS)
 model.summary()
-tf.keras.utils.plot_model(model, to_file="final_model.png")
+tf.keras.utils.plot_model(model,show_shapes=True,to_file="model.png")
 
 # %%
 #   9. Compile the model
