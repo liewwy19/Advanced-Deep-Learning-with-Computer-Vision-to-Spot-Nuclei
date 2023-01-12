@@ -94,7 +94,7 @@ Project Folder
 ## Model
 
 ### The U-Net Architecture
-![](https://blog.paperspace.com/content/images/size/w1000/2021/05/image-26.png)
+![](https://media.geeksforgeeks.org/wp-content/uploads/20220614121231/Group14.jpg)
 
 (Image source: https://arxiv.org/pdf/1505.04597.pdf)
 
