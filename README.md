@@ -96,8 +96,10 @@ Project Folder
 ### The U-Net Architecture
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20220614121231/Group14.jpg)
 
+
 (Image source: https://arxiv.org/pdf/1505.04597.pdf)
 
+### Final model summary
 ![](https://github.com/liewwy19/Advanced-Deep-Learning-with-Computer-Vision-to-Spot-Nuclei/blob/main/model.png?raw=True)
 
 ## Process
