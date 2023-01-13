@@ -5,9 +5,9 @@
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 
-
 ## Summary
 This project implement an advanced deep learning with computer vision architecture model (i.e. UNet) to advance medical discovery in Python.
+
 ## Abstract
 An algorithm that can automatically detect nuclei to expedite research on a wide 
 range of diseases, including cancer, heart disease, and rare disorders. Such tool has 
@@ -68,8 +68,6 @@ Project Folder
 ```
 
 
-
-
 ## Methodology
 + Import packages
     + set constant variables
@@ -112,6 +110,7 @@ Project Folder
 
 ### Prediction - Trained model
 ![](https://github.com/liewwy19/Advanced-Deep-Learning-with-Computer-Vision-to-Spot-Nuclei/blob/main/assets/prediction-2-trained.png?raw=True)
+
 ## Analysis
 The model able to achieve over 90% accuracy. Matter a fact, for certain input images, the predicted masks from the model are even better than the true mask. (Refer to the Results section below.) Specifically in "Prediction 2", area near the lower right section of the predicted mask.
 
